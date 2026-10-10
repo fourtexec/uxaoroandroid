@@ -1,0 +1,32 @@
+# Built app files
+*.apk
+*.aab
+
+# Android Studio IDE
+/.idea/
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/gradle.xml
+/.idea/compiler.xml
+/.idea/ui.xml
+
+# Gradle
+/gradle/caches/
+/gradle-wrapper/gradle-wrapper.jar
+
+# Local configuration
+/local.properties
+/secret.properties
+
+# Keystore
+*.keystore
+*.jks
+*.p12
+*.pfx
+
+# Build outputs
+/build/
+/captures/
+
+# Dist
+dist/

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_bg">#000000</color>
+    <string name="app_name">Uxaoro</string>
+    <style name="Theme.Uxaoro" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#070814</item>
+        <item name="android:navigationBarColor">#070814</item>
+        <item name="android:windowBackground">#070814</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

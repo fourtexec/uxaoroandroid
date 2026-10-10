@@ -1,0 +1,65 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.7/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:syncUxaoroIcons UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugResValues
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:checkDebugAarMetadata
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:compressDebugAssets
+> Task :app:mergeDebugStartupProfile
+> Task :app:mergeDebugJniLibFolders
+> Task :app:checkDebugDuplicateClasses
+> Task :app:validateSigningDebug
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeDebugNativeLibs
+> Task :app:mergeLibDexDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libjingle_peerconnection_so.so.
+
+> Task :app:processDebugResources
+> Task :app:mergeExtDexDebug
+
+> Task :app:compileDebugKotlin
+w: file:///home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/java/org/uxaoro/app/call/CallEngine.kt:320:47 There is more than one label with such a name in this scope
+w: file:///home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/java/org/uxaoro/app/ui/AppRoot.kt:258:23 'Chat: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Chat
+w: file:///home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/java/org/uxaoro/app/ui/call/CallScreen.kt:359:51 'ScreenShare: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ScreenShare
+w: file:///home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/java/org/uxaoro/app/ui/call/CallScreen.kt:388:89 'VolumeUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeUp
+w: file:///home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/java/org/uxaoro/app/ui/chat/ChatScreens.kt:363:13 Variable 'parts' is never used
+w: file:///home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/java/org/uxaoro/app/ui/chat/ChatScreens.kt:554:39 Variable 'mtype' is never used
+w: file:///home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/java/org/uxaoro/app/ui/news/NewsAndMoreScreens.kt:855:42 'Article: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Article
+w: file:///home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/java/org/uxaoro/app/ui/social/SocialScreens.kt:604:33 Variable 'previous' is never used
+w: file:///home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/java/org/uxaoro/app/ui/social/SocialScreens.kt:842:9 Variable 'scope' is never used
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics
+> Task :app:processDebugJavaRes
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 45s
+40 actionable tasks: 39 executed, 1 up-to-date

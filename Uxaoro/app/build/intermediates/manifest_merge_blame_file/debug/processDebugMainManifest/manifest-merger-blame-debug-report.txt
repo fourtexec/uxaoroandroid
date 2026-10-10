@@ -1,0 +1,244 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.uxaoro.app.debug"
+4    android:versionCode="2"
+5    android:versionName="0.1.0-debug" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:5:5-79
+12-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:6:5-71
+13-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:6:22-68
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:7:5-65
+14-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:7:22-62
+15    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+15-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:8:5-80
+15-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:8:22-77
+16    <!-- Uxaoro installs its own published APK updates (upd.manifest.json). -->
+17    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+17-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:10:5-83
+17-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:10:22-80
+18
+19    <uses-feature
+19-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:11:5-85
+20        android:name="android.hardware.camera"
+20-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:11:19-57
+21        android:required="false" />
+21-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:11:58-82
+22    <uses-feature
+22-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:12:5-89
+23        android:name="android.hardware.microphone"
+23-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:12:19-61
+24        android:required="false" />
+24-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:12:62-86
+25
+26    <!-- Android 11+ package visibility: the APK install intent must resolve. -->
+27    <queries>
+27-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:15:5-23:15
+28        <intent>
+28-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:16:9-19:18
+29            <action android:name="android.intent.action.VIEW" />
+29-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:17:13-65
+29-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:17:21-62
+30
+31            <data android:mimeType="application/vnd.android.package-archive" />
+31-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:18:13-80
+31-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:18:19-77
+32        </intent>
+33        <intent>
+33-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:20:9-22:18
+34            <action android:name="android.intent.action.INSTALL_PACKAGE" />
+34-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:21:13-76
+34-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:21:21-73
+35        </intent>
+36    </queries>
+37
+38    <permission
+38-->[androidx.core:core:1.13.1] /home/photon444/.gradle/caches/transforms-4/8e0a0bff2d388b6446750efdf4a5758f/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+39        android:name="org.uxaoro.app.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+39-->[androidx.core:core:1.13.1] /home/photon444/.gradle/caches/transforms-4/8e0a0bff2d388b6446750efdf4a5758f/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+40        android:protectionLevel="signature" />
+40-->[androidx.core:core:1.13.1] /home/photon444/.gradle/caches/transforms-4/8e0a0bff2d388b6446750efdf4a5758f/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+41
+42    <uses-permission android:name="org.uxaoro.app.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+42-->[androidx.core:core:1.13.1] /home/photon444/.gradle/caches/transforms-4/8e0a0bff2d388b6446750efdf4a5758f/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+42-->[androidx.core:core:1.13.1] /home/photon444/.gradle/caches/transforms-4/8e0a0bff2d388b6446750efdf4a5758f/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+43
+44    <application
+44-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:25:5-64:19
+45        android:name="org.uxaoro.app.UxaoroApp"
+45-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:26:9-34
+46        android:allowBackup="false"
+46-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:27:9-36
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.13.1] /home/photon444/.gradle/caches/transforms-4/8e0a0bff2d388b6446750efdf4a5758f/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+48        android:debuggable="true"
+49        android:extractNativeLibs="false"
+50        android:icon="@mipmap/ic_launcher"
+50-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:28:9-43
+51        android:label="@string/app_name"
+51-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:29:9-41
+52        android:networkSecurityConfig="@xml/network_security_config"
+52-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:34:9-69
+53        android:roundIcon="@mipmap/ic_launcher_round"
+53-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:30:9-54
+54        android:supportsRtl="true"
+54-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:31:9-35
+55        android:theme="@style/Theme.Uxaoro"
+55-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:32:9-44
+56        android:usesCleartextTraffic="false" >
+56-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:33:9-45
+57        <activity
+57-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:35:9-54:20
+58            android:name="org.uxaoro.app.MainActivity"
+58-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:36:13-41
+59            android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboardHidden|uiMode"
+59-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:37:13-113
+60            android:exported="true"
+60-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:38:13-36
+61            android:launchMode="singleTask"
+61-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:39:13-44
+62            android:theme="@style/Theme.Uxaoro"
+62-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:41:13-48
+63            android:windowSoftInputMode="adjustResize" >
+63-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:40:13-55
+64            <intent-filter>
+64-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:42:13-45:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:43:17-69
+65-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:43:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:44:17-77
+67-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:44:27-74
+68            </intent-filter>
+69            <!-- Fixed deep link used by API-hosted CAPTCHA and OAuth sign-in callbacks. -->
+70            <intent-filter>
+70-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:47:13-53:29
+71                <action android:name="android.intent.action.VIEW" />
+71-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:17:13-65
+71-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:17:21-62
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:49:17-76
+73-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:49:27-73
+74                <category android:name="android.intent.category.BROWSABLE" />
+74-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:50:17-78
+74-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:50:27-75
+75
+76                <data
+76-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:18:13-80
+77                    android:host="captcha"
+77-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:51:47-69
+78                    android:scheme="uxaoro" />
+78-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:51:23-46
+79                <data
+79-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:18:13-80
+80                    android:host="oauth"
+80-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:51:47-69
+81                    android:scheme="uxaoro" />
+81-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:51:23-46
+82            </intent-filter>
+83        </activity>
+84
+85        <provider
+86            android:name="androidx.core.content.FileProvider"
+86-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:56:13-62
+87            android:authorities="org.uxaoro.app.debug.fileprovider"
+87-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:57:13-64
+88            android:exported="false"
+88-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:58:13-37
+89            android:grantUriPermissions="true" >
+89-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:59:13-47
+90            <meta-data
+90-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:60:13-62:54
+91                android:name="android.support.FILE_PROVIDER_PATHS"
+91-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:61:17-67
+92                android:resource="@xml/file_paths" />
+92-->/home/photon444/uxaoro-closed/android/Uxaoro/app/src/main/AndroidManifest.xml:62:17-51
+93        </provider>
+94
+95        <activity
+95-->[androidx.compose.ui:ui-tooling-android:1.6.8] /home/photon444/.gradle/caches/transforms-4/c7ff3eb765e975bf618d909127b04946/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+96            android:name="androidx.compose.ui.tooling.PreviewActivity"
+96-->[androidx.compose.ui:ui-tooling-android:1.6.8] /home/photon444/.gradle/caches/transforms-4/c7ff3eb765e975bf618d909127b04946/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+97            android:exported="true" />
+97-->[androidx.compose.ui:ui-tooling-android:1.6.8] /home/photon444/.gradle/caches/transforms-4/c7ff3eb765e975bf618d909127b04946/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+98
+99        <provider
+99-->[androidx.emoji2:emoji2:1.3.0] /home/photon444/.gradle/caches/transforms-4/192474c036ec43764acdf6f3e34ae042/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.emoji2:emoji2:1.3.0] /home/photon444/.gradle/caches/transforms-4/192474c036ec43764acdf6f3e34ae042/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+101            android:authorities="org.uxaoro.app.debug.androidx-startup"
+101-->[androidx.emoji2:emoji2:1.3.0] /home/photon444/.gradle/caches/transforms-4/192474c036ec43764acdf6f3e34ae042/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+102            android:exported="false" >
+102-->[androidx.emoji2:emoji2:1.3.0] /home/photon444/.gradle/caches/transforms-4/192474c036ec43764acdf6f3e34ae042/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+103            <meta-data
+103-->[androidx.emoji2:emoji2:1.3.0] /home/photon444/.gradle/caches/transforms-4/192474c036ec43764acdf6f3e34ae042/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+104-->[androidx.emoji2:emoji2:1.3.0] /home/photon444/.gradle/caches/transforms-4/192474c036ec43764acdf6f3e34ae042/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+105                android:value="androidx.startup" />
+105-->[androidx.emoji2:emoji2:1.3.0] /home/photon444/.gradle/caches/transforms-4/192474c036ec43764acdf6f3e34ae042/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.8.4] /home/photon444/.gradle/caches/transforms-4/5b8ea465910fd80be9fa1407ed6ac524/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.8.4] /home/photon444/.gradle/caches/transforms-4/5b8ea465910fd80be9fa1407ed6ac524/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:30:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.8.4] /home/photon444/.gradle/caches/transforms-4/5b8ea465910fd80be9fa1407ed6ac524/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:31:17-49
+109            <meta-data
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+110                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+111                android:value="androidx.startup" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+112        </provider>
+113
+114        <receiver
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+115            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+116            android:directBootAware="false"
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+117            android:enabled="true"
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+118            android:exported="true"
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+119            android:permission="android.permission.DUMP" >
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+121                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+124                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+127                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+128            </intent-filter>
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+130                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/photon444/.gradle/caches/transforms-4/4e16cc280eaa0a1f5277c41379c36ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+131            </intent-filter>
+132        </receiver>
+133    </application>
+134
+135</manifest>

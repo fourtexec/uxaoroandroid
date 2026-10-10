@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "org.uxaoro.app-debug-50:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "org.uxaoro.app-main-52:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "org.uxaoro.app-main-52:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/drawable_ic_google.xml.flat",
+        "source": "org.uxaoro.app-main-52:/drawable/ic_google.xml"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/drawable_ic_launcher_bg.xml.flat",
+        "source": "org.uxaoro.app-main-52:/drawable/ic_launcher_bg.xml"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "org.uxaoro.app-main-52:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/drawable_ic_logo.xml.flat",
+        "source": "org.uxaoro.app-main-52:/drawable/ic_logo.xml"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/drawable-nodpi_logo_dark.png.flat",
+        "source": "org.uxaoro.app-main-52:/drawable-nodpi/logo_dark.png"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "org.uxaoro.app-main-52:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "org.uxaoro.app-main-52:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "org.uxaoro.app-main-52:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "org.uxaoro.app-main-52:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "org.uxaoro.app-main-52:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "org.uxaoro.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "org.uxaoro.app-main-52:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/xml_file_paths.xml.flat",
+        "source": "org.uxaoro.app-main-52:/xml/file_paths.xml"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "org.uxaoro.app-main-52:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "org.uxaoro.app-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/drawable-nodpi_logo_light.png.flat",
+        "source": "org.uxaoro.app-main-52:/drawable-nodpi/logo_light.png"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/drawable_ic_launcher_fg.xml.flat",
+        "source": "org.uxaoro.app-main-52:/drawable/ic_launcher_fg.xml"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/drawable-nodpi_applogo.png.flat",
+        "source": "org.uxaoro.app-main-52:/drawable-nodpi/applogo.png"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/xml_network_security_config.xml.flat",
+        "source": "org.uxaoro.app-main-52:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "org.uxaoro.app-main-52:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/drawable-nodpi_chat_space_doodles.png.flat",
+        "source": "org.uxaoro.app-main-52:/drawable-nodpi/chat_space_doodles.png"
+    },
+    {
+        "merged": "org.uxaoro.app-debug-50:/drawable_ic_github.xml.flat",
+        "source": "org.uxaoro.app-main-52:/drawable/ic_github.xml"
+    }
+]

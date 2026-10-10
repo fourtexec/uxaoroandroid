@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+color ic_launcher_bg
+drawable applogo
+drawable chat_space_doodles
+drawable ic_github
+drawable ic_google
+drawable ic_launcher_bg
+drawable ic_launcher_fg
+drawable ic_launcher_foreground
+drawable ic_logo
+drawable logo_dark
+drawable logo_light
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.Uxaoro
+xml file_paths
+xml network_security_config
